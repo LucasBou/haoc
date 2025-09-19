@@ -91,7 +91,7 @@ executable haoc
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.21.0.0, haoc
+    build-depends:    base ^>=4.21.0.0, haoc, http-conduit, optparse-applicative
 
     -- Directories containing source files.
     hs-source-dirs:   app
